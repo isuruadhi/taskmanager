@@ -1,0 +1,43 @@
+// Login.scss
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+    .login-box {
+      border: 1px solid #fff; // White border
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+  
+      /* You can further style the Google login button if needed */
+      /* .google-login-button {
+        background-color: #4285F4;
+        color: #fff;
+        font-size: 16px;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #3575D3;
+        }
+      } */
+    }
+  }
+  
